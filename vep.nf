@@ -93,7 +93,7 @@ process LoadGenome {
 		"""
 }
 
-CUTOFFS = ['WXS': 1000, 'WGS': 10000]
+CUTOFFS = ['WXS': 10, 'WGS': 10]
 
 process ProcessVariants {
 	tag "Process variants ${cohort}"
